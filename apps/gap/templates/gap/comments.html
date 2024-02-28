@@ -8,6 +8,7 @@
                 {{ comment.author }}
             </div>
             <div class="card-body">
+
                 <h5 class="card-title">Like {{ comment.like_count }}</h5>
                 <p class="card-text">{{ comment.body }}</p>
                 <a href="#" class="btn btn-primary">Like</a>
@@ -16,3 +17,4 @@
     {% endfor %}
 
 {% endblock %}
+
